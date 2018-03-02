@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Teko:700');
+
+h1{
+    font-family: 'Teko', sans-serif;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 2px 10px rgb(36, 36, 36);
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+header{
+	background-image: url(../images/head.jpg);
+	/*para modificar el ancho de la imagen*/
+	padding:50px;
+	/*para alinear el titulo o texto*/
+	text-align:center;
+	color:rgb(0, 0, 0);
+    font-size: 25px;
+    
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin: 25px;
+}
+
+h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+}
+
+
+
+
+        nav{
+            /* este cambio es para unicamente hacer un rectangulo en lo que nav incluye*/
+            background-color:rgb(32, 32, 32);
+            
+        
+        }
+
+        nav ul{
+            /* para quitarle las bolitas a los URLs de los linkk o sea    °hola  */
+            list-style: none;
+            /*Para quitar el espacio bacio entre los URLs y el background*/
+            padding: 0;
+            /* para quitar los margenes extra que se hacen entre el background y el cuadro creado para dividir los URLS...*/
+            margin:0 0 30px;
+            text-align: center;
+            
+        }
+
+        nav ul li{
+            /*para hacer que los URLs no salgan en renglones separados si no como pestañas en la misma linea*/
+            display: inline-block;
+            /*para ponerle espacio entre URLs y URLs*/
+            /* para aplicar el margin, el primer digito es arriba, el segundo derecha, el tercero abajo y el ultimo izquierda*/
+            margin:5px 25px 5px;
+            /* los pixeles son medidas absolutas y los % son medidas relativas*/
+            
+            
+        }
+
+        nav ul li a{
+            /*en este punto se hará que cada URL tenga un color determinado y no por default*/
+            font-weight: bold; /* para poner el texto en negritas*/
+            color:#fafafa;
+            /* text decoration te deja quitar la líne del texto o URL*/
+            text-decoration: none;
+    
+            
+        }
+
+        .container{
+            background-color: rgb(22, 22, 22);
+            color: white;
+        }
+
+        .container-fluid{
+            background-color: rgb(22, 22, 22);
+        }
+
+        .container-1{
+            margin:20px;
+        }
+
